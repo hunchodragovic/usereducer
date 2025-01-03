@@ -8,7 +8,7 @@ const ComponentB = () => {
     <div>
       <button
         type="button"
-        onClick={() => dispatch({ type: "INCREMENT", payload: 1 })}
+        onClick={() => dispatch({ type: "INCREMENT", payload: 2 })}
       >
         Increment
       </button>
@@ -17,7 +17,7 @@ const ComponentB = () => {
       </button>
       <button
         type="button"
-        onClick={() => dispatch({ type: "DECREMENT", payload: 1 })}
+        onClick={() => dispatch({ type: "DECREMENT", payload: 2 })}
       >
         Decrement
       </button>
